@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Steam Workshop Page
+    url: https://steamcommunity.com/sharedfiles/filedetails/?id=YOUR_WORKSHOP_ID
+    about: For quick questions or casual comments, please use the Steam Workshop comment section.
+  - name: Taro Tripwire (Prerequisite Mod)
+    url: https://steamcommunity.com/sharedfiles/filedetails/?id=3034379807
+    about: If your issue is related to the core tripwire functionality (e.g. grenade attachment), please check here.
