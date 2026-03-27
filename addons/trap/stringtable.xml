@@ -5,17 +5,21 @@
             <English>Debug</English>
             <Japanese>デバッグ</Japanese>
         </Key>
+        <Key ID="STR_BTD_Trap_DebugMode">
+            <English>Debug Mode</English>
+            <Japanese>デバッグモード</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_DebugMode_Description">
+            <English>When enabled, debug text will appear above trap objects. Note that detailed information is only displayed when within a certain range (100m) to ensure visibility at a distance.</English>
+            <Japanese>有効にすると、トラップオブジェクト上にデバッグ用テキストが表示されるようになります。なお、遠距離での視認性を確保するため、一定の距離（100m以内）まで近づかないと詳細な情報は表示されません。</Japanese>
+        </Key>
         <Key ID="STR_BTD_Trap_DefaultSetting">
             <English>Default Setting</English>
             <Japanese>デフォルト設定</Japanese>
         </Key>
-        <Key ID="STR_BTD_Trap_DoorDetection">
-            <English>Door Detection</English>
-            <Japanese>ドア検知</Japanese>
-        </Key>
         <Key ID="STR_BTD_Trap_DisplayName">
             <English>Booby Trap Door</English>
-            <Japanese>Booby Trap Door</Japanese> 
+            <Japanese>Booby Trap Door</Japanese>
         </Key>
         <Key ID="STR_BTD_Trap_DoorAnimationExcludeList">
             <English>Exclude List</English>
@@ -33,13 +37,13 @@
             <English>A list of keywords used to identify door animations. The system will detect any animation containing at least one of these strings. Example: ["door", "dvere"]</English>
             <Japanese>ドアとして認識するアニメーション名キーワードリストです。この文字列のいずれかを含むアニメーションをシステムが検出します。入力例: ["door", "dvere"]</Japanese>
         </Key>
+        <Key ID="STR_BTD_Trap_DoorDetection">
+            <English>Door Detection</English>
+            <Japanese>ドア検知</Japanese>
+        </Key>
         <Key ID="STR_BTD_Trap_InstantaneousFuze">
             <English>Enable Instantaneous Fuze</English>
             <Japanese>瞬発信管を有効にする</Japanese>
-        </Key>
-        <Key ID="STR_BTD_Trap_InstantaneousFuze_Description">
-            <English>Make the trap detonate immediately upon activation.</English>
-            <Japanese>トラップ作動時にすぐに起爆するようにします</Japanese>
         </Key>
         <Key ID="STR_BTD_Trap_InstantaneousFuzeDelay">
             <English>Instantaneous Fuze Delay</English>
@@ -49,13 +53,9 @@
             <English>Set the number of seconds until the instantaneous fuze detonates.</English>
             <Japanese>瞬発信管の起爆までにかかる秒数を設定します</Japanese>
         </Key>
-        <Key ID="STR_BTD_Trap_ShowErroredTrap">
-            <English>Debug Mode</English>
-            <Japanese>デバッグモード</Japanese>
-        </Key>
-        <Key ID="STR_BTD_Trap_DebugMode_Description">
-            <English>When enabled, debug text will appear above trap objects. Note that detailed information is only displayed when within a certain range (100m) to ensure visibility at a distance.</English>
-            <Japanese>有効にすると、トラップオブジェクト上にデバッグ用テキストが表示されるようになります。なお、遠距離での視認性を確保するため、一定の距離（100m以内）まで近づかないと詳細な情報は表示されません。</Japanese>
+        <Key ID="STR_BTD_Trap_InstantaneousFuze_Description">
+            <English>Make the trap detonate immediately upon activation.</English>
+            <Japanese>トラップ作動時にすぐに起爆するようにします</Japanese>
         </Key>
         <Key ID="STR_BTD_Trap_SpawnRate">
             <English>Spawn Rate</English>
