@@ -2,13 +2,17 @@
 
 class CfgPatches {
     class ADDON {
-        name = QUOTE(COMPONENT);
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
-        author = "replacement_AUTHOR";
-        authors[] = {"replacement_AUTHOR"};
+        requiredAddons[] = {"btd_main"};
+        author = "CatalpaBow";
+        authors[] = {};
         VERSION_CONFIG;
     };
 };
+
+PRELOAD_ADDONS;
+
+#include "CfgEventHandlers.hpp"

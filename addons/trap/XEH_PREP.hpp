@@ -1,0 +1,12 @@
+PREP(blank);
+PREP(buildingDoorList);
+PREP(createTrapInfo);
+PREP(detonateGrenadesNearPosition);
+PREP(drawDebugInfoHandler);
+PREP(findDoorFromTrap);
+PREP(forceDetonateTrapGrenade);
+PREP(main);
+PREP(registerTrap);
+PREP(searchNearestDoor);
+PREP(trapState);
+PREP(trapTriggerLoop);

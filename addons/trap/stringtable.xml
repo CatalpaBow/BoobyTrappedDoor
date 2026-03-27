@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="BTD">
+    <Package name="Trap">
+        <Key ID="STR_BTD_Trap_Debug">
+            <English>Debug</English>
+            <Japanese>デバッグ</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_DefaultSetting">
+            <English>Default Setting</English>
+            <Japanese>デフォルト設定</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_DoorDetection">
+            <English>Door Detection</English>
+            <Japanese>ドア検知</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_DisplayName">
+            <English>Booby Trap Door</English>
+            <Japanese>Booby Trap Door</Japanese> 
+        </Key>
+        <Key ID="STR_BTD_Trap_DoorAnimationExcludeList">
+            <English>Exclude List</English>
+            <Japanese>除外リスト</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_DoorAnimationExcludeList_Description">
+            <English>A list of keywords used to exclude specific animations from door recognition. Any animation containing these strings will be ignored, even if it matches the Include List. Example: ["locked"]</English>
+            <Japanese>ドアとして認識させないアニメーション名キーワードのリストです。対象リストに該当していても、ここに指定した文字列が含まれる場合は除外されます。入力例: ["locked"]</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_DoorAnimationIncludeList">
+            <English>Include List</English>
+            <Japanese>対象リスト</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_DoorAnimationIncludeList_Description">
+            <English>A list of keywords used to identify door animations. The system will detect any animation containing at least one of these strings. Example: ["door", "dvere"]</English>
+            <Japanese>ドアとして認識するアニメーション名キーワードリストです。この文字列のいずれかを含むアニメーションをシステムが検出します。入力例: ["door", "dvere"]</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_InstantaneousFuze">
+            <English>Enable Instantaneous Fuze</English>
+            <Japanese>瞬発信管を有効にする</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_InstantaneousFuze_Description">
+            <English>Make the trap detonate immediately upon activation.</English>
+            <Japanese>トラップ作動時にすぐに起爆するようにします</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_InstantaneousFuzeDelay">
+            <English>Instantaneous Fuze Delay</English>
+            <Japanese>瞬発信管遅延時間</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_InstantaneousFuzeDelay_Description">
+            <English>Set the number of seconds until the instantaneous fuze detonates.</English>
+            <Japanese>瞬発信管の起爆までにかかる秒数を設定します</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_ShowErroredTrap">
+            <English>Show Trap Status</English>
+            <Japanese>トラップの状態を表示</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_ShowErroredTrap_Description">
+            <English>Show trap status on the screen.</English>
+            <Japanese>トラップの状態を画面上に表示します</Japanese> </Key>
+        <Key ID="STR_BTD_Trap_SpawnRate">
+            <English>Spawn Rate</English>
+            <Japanese>出現確率</Japanese>
+        </Key>
+        <Key ID="STR_BTD_Trap_SpawnRate_Description">
+            <English>Sets the probability of traps being spawned (0-100%).</English>
+            <Japanese>トラップが生成される確率を設定します (0-100%)</Japanese>
+        </Key>
+    </Package>
+</Project>

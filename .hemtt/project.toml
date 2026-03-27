@@ -1,12 +1,18 @@
-name = "Arma Addon Template"
-author = "FooBar Team"
-prefix = "aam"
+name = "BoobyTrappedDoor"
+author = "CatalpaBow"
+prefix = "btd"
 mainprefix = "z"
 git_hash = 0
 
 [hemtt.launch.default]
 workshop = [
-    "450814997", # CBA_A3's Workshop ID
+    "450814997",    # CBA_A3's Workshop ID
+    "463939057",    # Ace3
+    "583496184",    # CUP Terrains Core
+    "853743366",    # CUP Terrains CWA
+    "583544987",    # CUP Terrains - Maps
+    "3034379807",   # Taro Tripwire
+
 ]
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
@@ -15,3 +21,4 @@ parameters = [
     "-debug",
     "-filePatching",
 ]
+mission = "dev_boobyTrapDoor.cain"
