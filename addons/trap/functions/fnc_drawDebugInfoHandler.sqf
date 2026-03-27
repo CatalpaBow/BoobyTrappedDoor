@@ -22,7 +22,7 @@
 
 _trapInfoList = _thisArgs select 0;
 
-if(not GVAR(isDrawDebugInfo))exitWith{};
+if(not GVAR(isDebugMode))exitWith{};
 {
 	private _trapInfo = _x;
 	private _titleText = "";

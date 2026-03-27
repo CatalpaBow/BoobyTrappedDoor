@@ -45,9 +45,9 @@
 
 ] call CBA_fnc_addSetting;
 [
-    QGVAR(isDrawDebugInfo),
+    QGVAR(isDebugMode),
     "CHECKBOX",
-    [LSTRING(ShowErroredTrap), LSTRING(ShowErroredTrap_Description)],
+    [LSTRING(DebugMode), LSTRING(DebugMode_Description)],
     [LSTRING(DisplayName),LSTRING(Debug)],
     false,
 	false

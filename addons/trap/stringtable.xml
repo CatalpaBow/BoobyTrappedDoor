@@ -50,12 +50,13 @@
             <Japanese>瞬発信管の起爆までにかかる秒数を設定します</Japanese>
         </Key>
         <Key ID="STR_BTD_Trap_ShowErroredTrap">
-            <English>Show Trap Status</English>
-            <Japanese>トラップの状態を表示</Japanese>
+            <English>Debug Mode</English>
+            <Japanese>デバッグモード</Japanese>
         </Key>
-        <Key ID="STR_BTD_Trap_ShowErroredTrap_Description">
-            <English>Show trap status on the screen.</English>
-            <Japanese>トラップの状態を画面上に表示します</Japanese> </Key>
+        <Key ID="STR_BTD_Trap_DebugMode_Description">
+            <English>When enabled, debug text will appear above trap objects. Note that detailed information is only displayed when within a certain range (100m) to ensure visibility at a distance.</English>
+            <Japanese>有効にすると、トラップオブジェクト上にデバッグ用テキストが表示されるようになります。なお、遠距離での視認性を確保するため、一定の距離（100m以内）まで近づかないと詳細な情報は表示されません。</Japanese>
+        </Key>
         <Key ID="STR_BTD_Trap_SpawnRate">
             <English>Spawn Rate</English>
             <Japanese>出現確率</Japanese>
