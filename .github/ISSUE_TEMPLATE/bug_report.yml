@@ -1,0 +1,74 @@
+name: "Bug Report"
+description: "Report a bug to help us improve the mod"
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 
+        Before submitting, please ensure you have checked the **Troubleshooting** section in the README.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have enabled **Debug Mode** and checked the trap status.
+          required: true
+        - label: I have ensured all prerequisite mods (CBA, ACE, TaroTripwire) are up to date.
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Place a [TaroTripWire] in front of a door.
+        2. Initialize the trap with the code in README.
+        3. Open the door...
+    validations:
+      required: true
+
+  - type: input
+    id: debug_status
+    attributes:
+      label: Debug Status Text
+      description: What is the text displayed over the trap object in Debug Mode?
+      placeholder: e.g., "Door not detected"
+    validations:
+      required: true
+
+  - type: input
+    id: door_anim_name
+    attributes:
+      label: Door Animation Name
+      description: If "Door not detected" or misidentified, what is the 'DoorAnimationName' shown in debug?
+      placeholder: e.g., "door_1_rot"
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Map name and any other mods that might be relevant.
+      placeholder: e.g., Altis, CUP, SOG Prairie Fire...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information / Screenshots
+      description: Add any other context or drag-and-drop screenshots here.
+    validations:
+      required: false
