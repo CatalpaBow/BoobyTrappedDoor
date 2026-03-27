@@ -54,7 +54,7 @@ body:
   - type: textarea
     id: additional
     attributes:
-      label: Additional Information / Screenshots
+      label: Additional Information / Screenshots / MissionFile
       description: Add any other context or drag-and-drop screenshots here.
     validations:
       required: false
