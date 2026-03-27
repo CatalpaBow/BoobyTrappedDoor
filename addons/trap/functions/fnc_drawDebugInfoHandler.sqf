@@ -30,6 +30,7 @@ if(not GVAR(isDebugMode))exitWith{};
 	private _doorAnimName = format ["DoorAnimationName: '%1'",_trapInfo get "doorObject"];
 	private _color = [1,1,1,1];
 	private _pos = _trapInfo get "position";
+	private _idText =  format ["ID:%1 ",_trapInfo get "id"];
 	
 	private _dist = positionCameraToWorld [0,0,0] distance _pos;
 	private _dynamicOffset = 0.05 + (_dist * 0.02);
@@ -67,7 +68,7 @@ if(not GVAR(isDebugMode))exitWith{};
 		1,
 		1,
 		0,
-		_titleText,
+		_idText + _titleText,
 		1,
 		0.04
 	];

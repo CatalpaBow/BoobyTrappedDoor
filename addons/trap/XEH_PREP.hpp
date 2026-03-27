@@ -3,6 +3,7 @@ PREP(buildingDoorList);
 PREP(createTrapInfo);
 PREP(detonateGrenadesNearPosition);
 PREP(drawDebugInfoHandler);
+PREP(dumpToClipboard);
 PREP(findDoorFromTrap);
 PREP(forceDetonateTrapGrenade);
 PREP(main);

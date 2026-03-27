@@ -41,30 +41,16 @@ body:
       required: true
 
   - type: input
-    id: debug_status
+    id: dump_text
     attributes:
-      label: Debug Status Text
-      description: What is the text displayed over the trap object in Debug Mode?
-      placeholder: e.g., "Door not detected"
+      label: DumpText
+      description: >
+        Paste the dump text here. You can copy the dump data of a specific trap to your clipboard 
+        by calling this function with the Trap ID as the first argument: [0] call btd_trap_fnc_dumpToClipboard
+      placeholder: '[["doorBuilding",2cd70f40b80# 134781: cwa_budova4_in.p3d Land_cwa_budova4_in],["doorObject","dvere1"],["isSpawn",true],["trapObject",138541: taro_tripwire_1_5m.p3d taro_tripwire_1_5m_Ammo],["id",0],["position",[10469,9668.68,0.00685501]]]'
     validations:
       required: true
-
-  - type: input
-    id: door_anim_name
-    attributes:
-      label: Door Animation Name
-      description: If "Door not detected" or misidentified, what is the 'DoorAnimationName' shown in debug?
-      placeholder: e.g., "door_1_rot"
-
-  - type: input
-    id: environment
-    attributes:
-      label: Environment
-      description: Map name and any other mods that might be relevant.
-      placeholder: e.g., Altis, CUP, SOG Prairie Fire...
-    validations:
-      required: true
-
+        
   - type: textarea
     id: additional
     attributes:
