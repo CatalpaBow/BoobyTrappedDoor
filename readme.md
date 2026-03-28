@@ -6,6 +6,8 @@ This mod enables [Taro Tripwire](https://steamcommunity.com/sharedfiles/filedeta
 It was developed with the goal of recreating "Ready or Not" style door traps within Arma 3.
 
 *Note: Currently, placement is only supported via the 3DEN Editor.*
+* GitHub Repository: [CatalpaBow/BoobyTrapDoor](https://github.com/CatalpaBow/BoobyTrapDoor/)
+* Bug Reports & Feedback: [Issues](https://github.com/CatalpaBow/BoobyTrapDoor/issues)
 
 ## Features
 * Traps trigger automatically when a door is opened past a certain point.
@@ -58,7 +60,9 @@ Below are solutions for specific debug statuses:
     * **Example:** If `DoorAnimationName: 'door_explosion'` is displayed, add `"explosion"` to the ExcludeList: `["locked","explosion"]`.
 
 * **If the issue persists:**
-    This may be a bug. Please report it via **GitHub Issues**.
+    This may be a bug. Please report it via [**GitHub Issues**](https://github.com/CatalpaBow/BoobyTrapDoor/issues).
 
 ## Credits
-* [Taro Tripwire](https://steamcommunity.com/sharedfiles/filedetails/?id=3034379807): A perfectly sized trap for door-rigging. My thanks to the creator, Taro.
+* [Taro Tripwire](https://steamcommunity.com/sharedfiles/filedetails/?id=3034379807):A trap of a suitable size for door-rigging. My thanks to the creator, Taro.
+
+This text was translated/refined using generative AI.

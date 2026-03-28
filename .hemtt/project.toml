@@ -12,7 +12,11 @@ workshop = [
     "853743366",    # CUP Terrains CWA
     "583544987",    # CUP Terrains - Maps
     "3034379807",   # Taro Tripwire
-
+    "2694833285",   # Ready or Not
+    "1862880106",   # POLPOX's Base Functions
+    "1341387001",   # POLPOX's Artwork Supporter
+    "623475643",    # Eden enhanced
+    "3591654209",   # Ready or Not
 ]
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable

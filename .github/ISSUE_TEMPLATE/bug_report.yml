@@ -6,7 +6,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! 
         Before submitting, please ensure you have checked the **Troubleshooting** section in the README.
 
   - type: checkboxes
@@ -41,15 +40,15 @@ body:
       required: true
 
   - type: input
-    id: dump_text
+    id: trap_dump_text
     attributes:
-      label: DumpText
+      label: TrapDumpText
       description: >
-        Paste the dump text here. You can copy the dump data of a specific trap to your clipboard 
+        Paste the trap dump text here. You can copy the dump data of a specific trap to your clipboard 
         by calling this function with the Trap ID as the first argument: [0] call btd_trap_fnc_dumpToClipboard
       placeholder: '[["doorBuilding",2cd70f40b80# 134781: cwa_budova4_in.p3d Land_cwa_budova4_in],["doorObject","dvere1"],["isSpawn",true],["trapObject",138541: taro_tripwire_1_5m.p3d taro_tripwire_1_5m_Ammo],["id",0],["position",[10469,9668.68,0.00685501]]]'
     validations:
-      required: true
+      required: false
         
   - type: textarea
     id: additional

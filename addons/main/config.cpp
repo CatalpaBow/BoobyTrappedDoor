@@ -6,9 +6,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"cba_main"};
+        requiredAddons[] = {"cba_main","taro_tripwire"};
         author = "CatalpaBow";
-        authors[] = {};
         VERSION_CONFIG;
     };
 };
